@@ -27,7 +27,11 @@ Heroku was used to deploy the application. Local database was created in Postgre
 References
 
 1 Heroku documentation [https://devcenter.heroku.com/categories/reference]
+
 2 Sequelize documentation [http://docs.sequelizejs.com/]
+
 3 Node Js [https://www.w3schools.com/nodejs/nodejs_intro.asp]
+
 4Heroku PostgreSQL [https://theptrk.com/2018/08/03/heroku-node-express-postgresql-setup/]
+
 5 jQuery [https://www.w3schools.com/jquery/]
