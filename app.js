@@ -26,7 +26,7 @@ var port = process.env.PORT;
 var hostname='localhost'
 
 
-server.listen(port ,hostname, () => {
+server.listen(process.env.PORT , () => {
 	console.log("Listening at post: "+port);
 });
 
