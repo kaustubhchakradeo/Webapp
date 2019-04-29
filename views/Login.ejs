@@ -1,0 +1,56 @@
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<!DOCTYPE html>
+<html>
+    <head>
+    <script
+			  src="https://code.jquery.com/jquery-3.4.0.min.js"
+			  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+			  crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    </head>
+    <body>
+        
+        <h1>Login Page</h1>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+        <div id="id01" class="modal">
+  
+                <form class="modal-content animate" method="POST">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                  </div>
+              
+                  <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username"  id="txtEmail" name="uname" required /> 
+              
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                      
+                    <button type="submit" onclick='Javascript:checkEmail();'> Login</button>
+
+                  </div>
+                  
+                  <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                  </div>
+                </form>
+              </div>
+              <button id='register'>Register</button>
+              <script lang="javascript" src='js/login.js'>
+
+              </script>
+              
+              <script>
+                  
+
+        
+            </script>
+    </body>          
+            
+   
+</html>

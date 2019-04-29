@@ -1,0 +1,56 @@
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+
+<!Doctype html>
+<html>
+<script
+			  src="https://code.jquery.com/jquery-3.4.0.min.js"
+			  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+			  crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="css/signup.css">
+        <style>
+
+        </style>
+        <body>
+
+            <h1 align="cente">Signup</h1>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+			<style>
+                    button{
+                        margin:auto;
+                        display:block;
+                    }
+            </style>
+            <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <form class="modal-content" method='POST'>
+                <div class="container">
+                <h1>Sign Up</h1>
+                <p>Please enter your details to log in!</p>
+                <hr>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" id="txtEmail" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" id="txtPassword" name="psw" required>
+
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" id="txtConfirmPassword" name="psw-repeat" required>
+
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn" onclick='checkEmail(); Validate();';>Sign Up</button>
+                    
+                </div>
+                </div>
+            </form>
+            </div>
+                          <button id='login'>Login</button>
+            <script src='js/signup.js'>
+
+            </script>
+        
+            </center>
+        </body>
+</html>
