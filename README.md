@@ -1,14 +1,5 @@
 # Webapp
 
-References
-
-1 Heroku documentation [https://devcenter.heroku.com/categories/reference]
-2 Sequelize documentation [http://docs.sequelizejs.com/]
-3 Node Js [https://www.w3schools.com/nodejs/nodejs_intro.asp]
-4Heroku PostgreSQL [https://theptrk.com/2018/08/03/heroku-node-express-postgresql-setup/]
-5 jQuery [https://www.w3schools.com/jquery/]
-
-
 Tools and technologies used
 
 HTML
@@ -32,3 +23,11 @@ The application was deployed by using Heroku.
 Deployment 
 
 Heroku was used to deploy the application. Local database was created in PostgreSQL since its deployment is free on Heroku. This database was then hosted on Heroku. Initially, the application was run on Localhost for testing purposes. Later, the app was deployed to heroku after it was tested. 
+
+References
+
+1 Heroku documentation [https://devcenter.heroku.com/categories/reference]
+2 Sequelize documentation [http://docs.sequelizejs.com/]
+3 Node Js [https://www.w3schools.com/nodejs/nodejs_intro.asp]
+4Heroku PostgreSQL [https://theptrk.com/2018/08/03/heroku-node-express-postgresql-setup/]
+5 jQuery [https://www.w3schools.com/jquery/]
