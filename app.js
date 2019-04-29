@@ -22,11 +22,11 @@ session = require('express-session');
 
 
 var server = require('http').createServer(app);
-var port = 3001;
+var port = process.env.PORT;
 var hostname='localhost'
 
 
-server.listen(process.env.PORT ,hostname, () => {
+server.listen(port ,hostname, () => {
 	console.log("Listening at post: "+port);
 });
 
